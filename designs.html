@@ -6,8 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+h1, h2, h3 {font-family: "Montserrat", sans-serif}
+body {font-family: "Montserrat", sans-serif}
+p {font-family: "Karla", sans-serif}
+/* body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif} */
 .w3-bar-block .w3-bar-item {padding:20px}
 </style>
 </head>
@@ -15,20 +19,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 <!-- Navbar -->
 <div class="w3-top">
-    <div class="w3-bar w3-black w3-card">
-      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-      <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-      <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESUME</a>
-      <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DESIGNS</a>
-      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
-    </div>
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="resume.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESUME</a>
+    <a href="designs.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DESIGNS</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
   </div>
+</div>
   
   <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
   <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RESUME</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DESIGNS</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+    <a href="resume.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RESUME</a>
+    <a href="designs.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DESIGNS</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
   </div>
   
 <!-- !PAGE CONTENT! -->
@@ -38,31 +42,31 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <div class="w3-row-padding w3-padding-16 w3-center" id="food">
     <div class="w3-quarter">
       <img src="/images/samDND.jpg" alt="Sandwich" style="width:100%">
-      <h3>The Perfect Sandwich, A Real NYC Classic</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <h3>Half-Orc DND Character Commission</h3>
+      <!-- <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
     </div>
     <div class="w3-quarter">
       <img src="/images/belleDND.jpg" alt="Steak" style="width:100%">
-      <h3>Let Me Tell You About This Steak</h3>
-      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <h3>Tiefling DND Character Commission</h3>
+      <!-- <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
     </div>
     <div class="w3-quarter">
       <img src="/images/parynDND.jpg" alt="Cherries" style="width:100%">
-      <h3>Cherries, interrupted</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-      <p>What else?</p>
+      <h3>Wood Elf Ranger DND Character Commission</h3>
+      <!-- <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+      <!-- <p>What else?</p> -->
     </div>
     <div class="w3-quarter">
       <img src="/images/splashDND.jpg" alt="Pasta and Wine" style="width:100%">
-      <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <h3>Water Genasi Barbarian DND Character Commission</h3>
+      <!-- <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
     </div>
   </div>
   
   <!-- Second Photo Grid-->
-  <div class="w3-row-padding w3-padding-16 w3-center">
+  <!-- <div class="w3-row-padding w3-padding-16 w3-center">
     <div class="w3-quarter">
-      <img src="/images/samDND.jpg" alt="Popsicle" style="width:100%">
+      <img src="/images/barrelDND.jpg" alt="Popsicle" style="width:100%">
       <h3>All I Need Is a Popsicle</h3>
       <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div>
@@ -81,7 +85,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <h3>Le French</h3>
       <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div>
-  </div>
+  </div> -->
   
   <hr id="about">
 
@@ -103,6 +107,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 <!-- End page content -->
 </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i> -->
+    <a href = "https://www.instagram.com/sockb_/" title = "Visit my art account!" target = "_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <!-- <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i> -->
+    <a href = "https://www.linkedin.com/in/betsytuggle/" title = "Visit my LinkedIn!" target = "_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </footer>
 
 <script>
 // Script to open and close sidebar

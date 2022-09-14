@@ -6,31 +6,35 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1 {font-family: "Montserrat", "Playfair Display", sans-serif}
-h2,h3,h4,h5,h6 {font-family: "Inconsolata, sans-serif"}
+h1, h2, h3 {font-family: "Montserrat", sans-serif}
+body {font-family: "Montserrat", sans-serif}
+p {font-family: "Karla", sans-serif}
+/* html,body,h1 {font-family: "Montserrat", "Playfair Display", sans-serif}
+h2,h3,h4,h5,h6 {font-family: "Inconsolata, sans-serif"} */
 img {border: 5px solid black}
 </style>
 </head>
 <body class="w3-light-grey">
 
   <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESUME</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DESIGNS</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="resume.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESUME</a>
+      <a href="designs.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DESIGNS</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    </div>
   </div>
-</div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RESUME</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DESIGNS</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="resume.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RESUME</a>
+  <a href="designs.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DESIGNS</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
 </div>
 
 <!-- Page Container -->
@@ -177,12 +181,12 @@ img {border: 5px solid black}
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i> -->
+  <a href = "https://www.instagram.com/sockb_/" title = "Visit my art account!" target = "_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <!-- <i class="fa fa-snapchat w3-hover-opacity"></i>
   <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i> -->
+  <a href = "https://www.linkedin.com/in/betsytuggle/" title = "Visit my LinkedIn!" target = "_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
 </footer>
 
 </body>
